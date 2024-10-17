@@ -10,5 +10,5 @@ fs.writeFile('ejemplo.txt', data, (err)=>{
         if(err) throw err;
         console.log(`Contenido del archivo:`);
         console.log(content);
-    })
-})
+    });
+});
