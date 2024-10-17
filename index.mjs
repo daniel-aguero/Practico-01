@@ -1,9 +1,8 @@
-
 import http from 'http';
 
 const hostname = '127.0.0.1';
 
-const port = 3000;
+const port = 5500;
 
 const server = http.createServer((req, res)=>{
     res.statusCode = 200;
@@ -15,16 +14,3 @@ const server = http.createServer((req, res)=>{
 server.listen(port, hostname,()=>{
     console.log(`El servidor se esta ejecutando en http://${hostname}:${port}`);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-//console.log(`mensaje rapido`)
